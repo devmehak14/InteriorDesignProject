@@ -1,0 +1,51 @@
+.first li{
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.second li{
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 20px;
+    /* opacity: 0.8; */
+
+}
+
+li:hover {
+    background-color: grey;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 20px;
+    
+}
+
+
+header {
+    overflow: hidden;
+    padding: 20px 10px;
+    
+}
+
+body, html {
+    height: 100%;
+  }
+
+body {
+    background-image: url('https://img.freepik.com/free-psd/loft-living-room-interior-psd_53876-109280.jpg?w=1060&t=st=1687441827~exp=1687442427~hmac=cd9214d8914ee2f688439fad675f1cd2a80a42ce94db195214931286f61b4051');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* opacity:; */
+}
